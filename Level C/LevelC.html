@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="levelC.css">
+</head>
+<body>
+<table>
+    <tr>
+        <th>Counter No</th>
+        <th>Attempt No</th>
+        <th>Final Value</th>
+    </tr>
+    {%for counter in counters%}
+    <tr>
+        <td>{{counter.cntrno}}</td>
+        <td>{{counter.attmptno}}</td>
+        <td>{{counter.finalvalue}}</td>
+    </tr>
+</table>
+
+</body>
+</html>
